@@ -1,0 +1,101 @@
+#reg h1{margin:0;
+    padding:0;
+font-weight: normal;
+font-size: 20px;}
+   #reg{
+       height:100vh;
+       background:#f0f0f0;
+   }
+   
+   #reg header{
+       display:flex;
+       justify-content: center;
+       font-size: 15px;
+       align-items:center;
+       color:#8d4c04;
+       background: #fff;
+       height:50px;
+     
+       flex-shrink: 0;
+       position: relative;
+   }
+   
+   #reg header span:nth-child(1){
+       font-size:40px;
+        padding-bottom:6px;
+       
+        position: absolute;
+        left:5px;
+   }
+  
+   
+   
+   /* 输入框 */
+   #reg  section{
+       flex:1;
+       overflow: auto;
+   }
+   
+   #reg  .code,.phone,.password{
+       height: 60px;
+       margin-top:2px;
+       background: #fff;
+       display: flex;
+       align-items: center;
+   
+   }
+   #reg .code input{
+       width:70%;
+    }
+    #reg  .code span{
+        width:30%;
+        height: 100%;
+        background: #05bc8e;
+        text-align: center;
+         line-height:60px;
+         color:#fff;
+    }
+   
+    #reg   input{
+       width:80%;
+       height:40px;
+       border: none;
+       outline: none;
+       color:#6c6c6c;
+       font-size: 18px;
+       text-indent: 2em;
+   }
+    
+   
+ 
+   #reg .reg{
+     
+       display: flex;
+       justify-content: center;
+       
+       margin-top: 50px;
+       width:100%;
+   }
+   #reg  .reg button{
+       outline: none;
+       width:80%;
+       border-radius: 15px;
+       height:40px;
+       background: #13cb67;
+       color:#fff;
+       text-align: center;
+       border: none;
+       font-size: 18px;
+   }
+
+   /* 注册协议 */
+   #reg  .reg-protocol{
+       margin-top: 30px;
+       display: flex;
+       justify-content: center;
+   }
+   #reg  .reg-protocol a{
+        text-decoration: none;
+        color:#62c867;
+        margin-left:10px;
+   }

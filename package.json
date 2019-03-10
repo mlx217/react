@@ -26,5 +26,17 @@
   "devDependencies": {
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlx217/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlx217/react/issues"
+  },
+  "homepage": "https://github.com/mlx217/react#readme"
 }

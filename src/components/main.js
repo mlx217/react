@@ -24,7 +24,7 @@ class Main extends Component {
         <Route path="/list" component={List}></Route>
         <Route path="/cart" component={Cart}></Route>
         <Route path="/my" component={My}></Route>
-        <Redirect to="/shouye"/>
+      
         </Switch>	
         </div>
        
