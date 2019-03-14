@@ -25,6 +25,8 @@
   .Main-section{
     flex: 1;
     width: 100%;
+    background:#f0f0f0;
+    overflow: auto;
   }
   .Main-footer{
     height: 62px;

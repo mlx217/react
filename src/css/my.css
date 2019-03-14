@@ -1,0 +1,166 @@
+#my p{margin:0;padding:0;}
+
+#my{
+    display:flex;
+    flex-direction: column;
+     flex:1;
+    height: 100%;
+   overflow: auto;
+  
+    
+}
+
+#my .fixHeader{
+     position: fixed;
+     top:0;
+     display: flex;
+     justify-content: center;
+     
+     align-items: center;
+     height:50px;
+    
+     font-size: 22px;
+     color:#8d4c04;
+     background: rgba(255, 255,255, 0.3)
+}
+
+#my .header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height:50px;
+    color: #fff;
+    font-size: 22px;
+    overflow: hidden;
+  
+}
+
+#my .fixHeader span{
+     position:fixed;
+     right:20px;
+     font-size: 18px;
+ }
+
+#my .header span{
+    position:absolute;
+    right:20px;
+    font-size: 18px;
+}
+
+/* 头像 */
+
+#my .header-img{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:30px;
+    flex-direction: column;
+    
+}  
+#my .header-img p:nth-child(1){
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#my .header-img span{
+    font-size: 24px;
+    color:#2ea13a;
+}
+
+#my .header-img p:nth-child(2) a{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+
+#my .header-img p:nth-child(2) span{
+     color:#ffffff;
+     font-size: 16px;
+ }
+/* 第二个div */
+#my .my-two{
+    display:flex;
+    justify-content: space-between;
+    height:60px;
+    align-items: center;
+    font-size: 20px;
+    padding:0 15px;
+    background: #fff;
+}
+
+#my .my-two div:nth-child(2){
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+#my .my-two div:nth-child(2) span:nth-child(1){
+    font-size: 18px;
+    color:#a6a6a6;
+
+}
+
+#my .my-two div:nth-child(2) span:nth-child(2){
+    color:#8d4c04;
+    font-size: 26px;
+   padding-bottom: 4px;
+   margin-left:10px;
+}
+
+/* 第三个div */
+
+#my .my-three{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    margin:2px 0 20px;
+}
+
+#my .my-three div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+     font-size: 18px;
+}
+
+#my .my-three div p:nth-child(1){
+     font-size: 32px;
+}
+
+/* 第四个div */
+
+#my .my-four{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom:20px;
+    padding: 10px 15px;
+   
+}
+
+#my .my-four div:nth-child(1){
+    display: flex;
+  
+    align-content: center;
+    align-items: center;
+     font-size: 20px;
+
+}
+#my .my-four div:nth-child(1) p:nth-child(1){
+    font-size: 24px;
+    margin-right: 20px;
+}
+#my .my-four div:nth-child(2){
+     font-size:22px;
+     color:#d2d2d2;
+}

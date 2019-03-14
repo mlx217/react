@@ -1,0 +1,44 @@
+#myorder{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#myorder h1{margin:0;
+    padding:0;
+font-weight: normal;
+font-size: 20px;
+color:#8d4c04;}
+   #myorder{
+       height:100vh;
+       background:#f0f0f0;
+   }
+   
+   #myorder header{
+       display:flex;
+       justify-content: center;
+       font-size: 15px;
+       align-items:center;
+       color:#8d4c04;
+       background: #fff;
+       height:50px;
+     
+       flex-shrink: 0;
+       position: relative;
+       margin-bottom:1px;
+   }
+   
+   #myorder header span:nth-child(1){
+       font-size:40px;
+        padding-bottom:6px;
+       
+        position: absolute;
+        left:10px;
+   }
+   #myorder .myorder{
+       flex:1;
+       overflow: auto;
+    
+   }
